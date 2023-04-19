@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 username = input("Kullanıcı Adı: ")
 password = input("Sifre: ")
 
-driver = webdriver.Chrome("D:/ceng111/pythonProject/chromedriver.exe")
+driver = webdriver.Chrome(".../chromedriver.exe")
 url = "https://www.instagram.com/accounts/login/"
 driver.get(url)
 
